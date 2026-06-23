@@ -13,7 +13,6 @@
   </kbd>
 </p>
 
-![alt text](<assets/img/Screenshot 2026-06-23 173505.png>)
 
 ## About Me 👨🏽‍💻
 I am a Software and Data Engineer and an Honours candidate in Computer Science & Informatics. I have hands-on experience designing and shipping production-ready systems—from secure ASP.NET Core & Angular SPAs deployed on Azure and Render, to dimensional data warehouse pipelines built in SSIS, to Retrieval-Augmented Generation (RAG) systems developed in Python. This repository houses the source code for my professional portfolio.
