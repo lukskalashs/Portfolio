@@ -1,7 +1,7 @@
 # Lukhanyo Kalashe - Personal Portfolio
 > A clean, responsive personal portfolio showcasing my work in Full-Stack Engineering, Data Engineering, and Artificial Intelligence.
 
-> [View Live Portfolio](https://lukskalashs.github.io) [![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/lukhanyo-kalashe-55320b22a/)
+> [View Live Portfolio](https://lukskalashs.github.io/Portfolio/) [![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/lukhanyo-kalashe-55320b22a/)
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ### Website Preview
