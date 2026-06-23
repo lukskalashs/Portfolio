@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Lukhanyo Kalashe | Software Engineer</title>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lukhanyo Kalashe | Full-Stack, Data & AI Engineer" />
+  <meta property="og:description" content="Software Developer" />
+  <meta property="og:url" content="https://github.com/lukskalashs" />
+  <meta property="og:site_name" content="Lukhanyo Kalashe | Software Engineer" />
+  <meta name="author" content="Lukhanyo Kalashe" />
+  <meta name="description" content="Honours candidate in Computer Science & Informatics with hands-on experience across full-stack engineering, data engineering, and applied NLP." />
+  
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+</head>
+
+<body>
+  
+  <!-- Navigation Menu-->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/profile-picture.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Lukhanyo's resume in a new tab" href="assets/resume/Lukhanyo_Kalashe_Resume.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Lukhanyo
+        Kalashe</a><span class="black-text">Software Engineer</span>
+    </div>
+  </nav>
+
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Lukhanyo's Resume in a new tab"
+          href="#" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Lukhanyo Kalashe.</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <h5>Honours candidate in Computer Science & Informatics with hands-on experience across full-stack engineering, data engineering, and applied NLP.</h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/lukhanyo-kalashe-55320b22a/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/lukskalashs" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <p>
+          I am a Software and Data Engineer driven by the challenge of turning complex data into actionable, high-performing systems. I have a demonstrated ability to design and ship production-ready systems — from secure ASP.NET Core & Angular SPAs deployed on Azure and Render, to dimensional data warehouse pipelines built in SSIS, to Retrieval-Augmented Generation (RAG) systems developed in Python and LangChain.
+        </p>
+        <p>
+          I possess a strong foundation in clean architecture, cloud deployment, and translating complex business requirements into maintainable, scalable technical solutions.
+        </p>
+        <p>
+          <ul>
+            <li><b>Languages:</b> C#, TypeScript, JavaScript, Python, SQL, R, HTML, CSS, SAS</li>
+            <li><b>Frontend:</b> Angular, TailwindCSS, DaisyUI, Bootstrap, jQuery</li>
+            <li><b>Backend & Cloud:</b> ASP.NET Core Web API, Entity Framework Core, SignalR, Docker, Azure, Render, REST APIs, JWT, CI/CD, Git</li>
+            <li><b>Data Engineering & BI:</b> Power BI, DAX, SQL Server, SSIS (ETL), MySQL, Star Schema / Dimensional Modelling, Slowly Changing Dimensions (SCD)</li>
+            <li><b>AI & NLP:</b> Python, LangChain, Hugging Face Transformers (BERT/GPT), spaCy, NLTK, scikit-learn, Pandas, Semantic Search, Prompt Engineering</li>
+            <li><b>Architecture:</b> MVC, Unit of Work, Repository Pattern, RBAC, Agile, UML</li>
+          </ul>
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <div class="row text-center">
+                  <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="http://meditab.com" target="_blank"
+                      class="teal-text hoverline">University Of The Free State</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role black-text text-darken-2">TUTOR</div>
+            </div>
+            <ul>
+              <li>
+                Mentored first-year students in OOP principles, C# programming logic, and introductory web development.
+              </li>
+              <li>
+                Delivered clear explanations of complex concepts and provided actionable code reviews aligned with software engineering best practices.
+              </li>
+              <li>
+                Evaluated and marked technical assignments, maintaining consistent grading standards across a large cohort.
+              </li>
+               <div class="card-action">
+            <span>Mar 2024 – Nov 2025 | Bloemfontein, South Africa</span>
+          </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Dating App" src="/assets/img/Screenshot 2026-03-04 161556.png"
+                style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">DatingApp - FullStack<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A comprehensive full-stack social application featuring real-time interactions.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> ASP.NET Core Web API, Angular, TypeScript, Entity Framework Core, SignalR, Docker, SQL Server, Azure, Cloudinary</li>
+                  <li>Implemented real-time online presence tracking and live user messaging using SignalR.</li>
+                  <li>Containerized SQL Server database using Docker for consistent development and production environments.</li>
+                  <li>Integrated Cloudinary for scalable photo storage and utilized client-side caching.</li>
+                  <li>Configured CI/CD pipelines and published the production build to Microsoft Azure via Git.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo" href="https://github.com/lukskalashs/DatingApp2026"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Data Warehouse" src="/assets/img/dw.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Enterprise DW & BI<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Multi-subject data warehouse and BI analytics platform for a distribution company.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Power BI, DAX, SQL Server, SSIS, Visual Studio 2022</li>
+                  <li>Produced a fully normalised star schema dimensional model with three fact tables (FactProduction, FactInventory, FactSales).</li>
+                  <li>Developed SSIS packages implementing Derived Column, Lookup, Conditional Split, Data Conversion, and Sort transformations.</li>
+                  <li>Developed a 4-page interactive Power BI dashboard utilizing custom DAX measures for executive and supply chain analytics.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo" href="https://github.com/lukskalashs/RooiTea-Data-Warehouse"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Course Tracker" src="/assets/img/courseTracker.png"
+                style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">
+                    <a href="https://coursetracker2023575000.onrender.com/courses" target="_blank" style="color: inherit;">
+                        Course Tracker SPA
+                    </a>
+                    <i class="mdi-navigation-more-vert right"></i>
+                </span>
+                <p>
+                    A cloud-hosted web solution for tracking online courses and tutorials.
+                </p>
+            </div>
+              <div class="card-reveal">
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> ASP.NET Core 10.0, C#, Angular 20, Render, SQL, JWT</li>
+                  <li>Engineered the frontend utilizing Angular 20 standalone components and Angular Signals.</li>
+                  <li>Secured the application with ASP.NET Identity, JWT tokenization, and HttpOnly refresh cookies.</li>
+                  <li>Built the data access layer employing the Repository and Unit of Work patterns, and deployed to Render.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo" href="https://github.com/lukskalashs/2026_CourseTracker_KalasheLF"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="NLP RAG System" src="/assets/img/Rag_System.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">RAG System – NLP<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A Retrieval-Augmented Generation (RAG) system for technical software engineering documents.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Python, LangChain, Hugging Face Transformers, spaCy, FAISS, TF-IDF</li>
+                  <li>Engineered a practical tool to automate the analysis and querying of technical course documents.</li>
+                  <li>Implemented dense semantic retrieval utilizing FAISS and document embeddings to ensure high-accuracy context fetching.</li>
+                  <li>Designed a hybrid search approach incorporating TF-IDF to significantly improve retrieval precision.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo" href="https://github.com/lukskalashs"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="CSA Maize Impact Analysis" src="/assets/img/csa_maize.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Data Analysis: CSA Impact<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Exploratory data analysis assessing the impact of Climate-Smart Agriculture on crop yield and food security.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title teal-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Python, Pandas, Scikit-learn, Seaborn, Looker Studio, Google Colab</li>
+                  <li>Conducted comprehensive EDA on survey data from 316 smallholder farmers in North-West South Africa.</li>
+                  <li>Applied K-Means clustering and statistical analysis to evaluate CSA adoption against maize productivity.</li>
+                  <li>Developed an interactive Looker Studio dashboard to visualize findings and guide agricultural policy recommendations.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo" href="https://github.com/lukskalashs/csa-maize-impact-analysis" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Anomaly Detection" src="/assets/img/anomaly analysis.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Anomaly Detection<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Hybrid machine-learning system for detecting anomalies in AWS EC2 CPU utilization datasets.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title teal-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Python, Scikit-learn, Numba, Isolation Forest, Local Outlier Factor</li>
+                  <li>Designed an ensemble ML pipeline utilizing sliding-window feature engineering and statistical thresholding.</li>
+                  <li>Optimized performance with Numba, successfully processing 10,000-point time-series datasets.</li>
+                  <li>Achieved an exceptional 90.1% F1-Score (94.2% Recall, 86.9% Precision) across 10 evaluation datasets.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo" href="https://github.com/lukskalashs/Anomaly-Detection-in-Time-Series-Data-AWS-EC2-CPU-Utilization-" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Snake Game" src="/assets/img/SankeGame.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Snake Game (WPF)<i class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A classic Snake game desktop application built with C# and the .NET Framework.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title teal-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> C#, WPF, .NET Framework, OOP</li>
+                  <li>Engineered game logic utilizing Object-Oriented Programming (OOP) principles and event-driven architecture.</li>
+                  <li>Implemented continuous game state management, grid-based translation, and real-time collision detection.</li>
+                  <li>Designed the graphical user interface (GUI) and rendering system leveraging Windows Presentation Foundation (WPF).</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit the GitHub repo" href="https://github.com/lukskalashs/SnakeGame" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Languages & Frontend</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img src="/assets/img/ccharp.png" class="responsive-img" />C#
+              </div>
+              <div class="col s4 m2">
+                <img alt="TypeScript" src="assets/img/typescript.png" class="responsive-img" />TypeScript
+              </div>
+              <div class="col s4 m2">
+                <img alt="Python" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="Angular" src="/assets/img/angular.png" class="responsive-img" />Angular
+              </div>
+              <div class="col s4 m2">
+                <img alt="TailwindCSS" src="/assets/img/tailwind.png" class="responsive-img" />TailwindCSS
+              </div>
+              <div class="col s4 m2">
+                <img alt="HTML & CSS" src="/assets/img/html&css.png" class="responsive-img" />HTML5 & CSS3
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Backend, Cloud & Databases</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="ASP.NET Core" src="/assets/img/ASP.NET Core.png" class="responsive-img" />ASP.NET Core
+              </div>
+              <div class="col s4 m2">
+                <img alt="SQL Server" src="/assets/img/SQLServer.png" class="responsive-img" />SQL Server
+              </div>
+              <div class="col s4 m2">
+                <img alt="Docker" src="/assets/img/docker-mark-ocean-blue.png" class="responsive-img" />Docker
+              </div>
+              <div class="col s4 m2">
+                <img alt="MySQL" src="/assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />MySQL
+              </div>
+              <div class="col s4 m2">
+                <img alt="Azure" src="/assets/img/azure.png" class="responsive-img" />Azure
+              </div>
+              <div class="col s4 m2">
+                <img alt="Git" src="/assets/img/git.png" class="responsive-img" />Git / CI-CD
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Data Engineering & BI</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="Power BI" src="/assets/img/Microsoft-Power-Bi--Streamline-Svg-Logos.png" class="responsive-img" />Power BI
+              </div>
+              <div class="col s4 m2">
+                <img alt="SSIS" src="/assets/img/icons8-visual-studio-48.png" class="responsive-img" />SSIS
+              </div>
+              <div class="col s4 m2">
+                <img alt="DAX" src="/assets/img/DAX.jpg" class="responsive-img" />DAX
+              </div>
+              <div class="col s4 m2">
+                <img alt="Data Warehousing" src="/assets/img/sql-data-warehouses.png" class="responsive-img" />Data Warehousing
+              </div>
+              <div class="col s4 m2">
+                <img alt="R Language" src="/assets/img/icons8-r-project-48.png" class="responsive-img" />R
+              </div>
+              <div class="col s4 m2">
+                <img alt="SAS" src="/assets/img/sas-logo-sas-blue.png" class="responsive-img" />SAS
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">AI, NLP & Libraries</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="LangChain" src="/assets/img/langchain-white-seeklogo.png" class="responsive-img" />LangChain
+              </div>
+              <div class="col s4 m2">
+                <img alt="Hugging Face" src="/assets/img/hf-logo-with-title.png" class="responsive-img" />Hugging Face
+              </div>
+              <div class="col s4 m2">
+                <img alt="spaCy" src="/assets/img/spacy_logo_icon_249559.png" class="responsive-img" />spaCy
+              </div>
+              <div class="col s4 m2">
+                <img alt="Pandas" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
+              </div>
+              <div class="col s4 m2">
+                <img alt="scikit-learn" src="/assets/img/sk-learn-logo-1-500x500.jpg" class="responsive-img" />scikit-learn
+              </div>
+              <div class="col s4 m2">
+                <img alt="OpenAI" src="/assets/img/OpenAI_Logo_1.png" class="responsive-img" />OpenAI
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="#" target="_blank" class="teal-text hoverline">University of the Free State</a></span>
+                </p>
+                <p class="brown-text">South Africa</p>
+                <p>
+                  <b>Degree: </b>BSc Honours — Computer Science & Informatics
+                  <br>
+                  <b>Awards: </b>JSE Bursary Recipient (2026)
+                  <br>
+                  <b>Dates: </b>Jan 2026 – Present
+                </p>
+                <ul>
+                  <p>
+                    <b>Focus Areas:</b>
+                  <ul>
+                    <li>Natural Language Processing</li>
+                    <li>Advanced Internet Programming</li>
+                    <li>Data Warehousing</li> 
+                    <li>Business Intelligence</li>                  
+                    <li>Data Analytics</li>
+                    <li>Advanced Programming</li>                  
+                  </ul>
+                  </p>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="#" target="_blank" class="teal-text hoverline">University of the Free State</a></span>
+                </p>
+                <p class="brown-text">South Africa</p>
+                <p>
+                  <b>Degree: </b>BSc Information Technology — Computer Science & Business Management
+                  <br>
+                  <b>Achievement: </b>Graduated with Distinction
+                  <br>
+                  <b>Dates: </b>Jan 2023 – Nov 2025
+                </p>
+                <ul>
+                  <p>
+                    <b>Relevant Coursework:</b>
+                  <ul>
+                    <li>Data Structures & Advanced Programming</li>
+                    <li>Systems Analysis & Design</li>
+                    <li>Databases & DBMS</li>
+                    <li>Internet Programming</li>
+                    <li>Business Data Analytics</li>
+                    <li>Statistics</li>
+                  </ul>
+                  </p>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call Lukhanyo" data-position="top" data-tooltip="Call Lukhanyo"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Lukhanyo">+27 67 062 9940</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Lukhanyo" href="mailto:kalashslukhanyo@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Lukhanyo" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Lukhanyo" href="mailto:kalashslukhanyo@gmail.com"
+              class="hoverline">kalashslukhanyo@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Lukhanyo on GitHub" href="https://github.com/lukskalashs" target="_blank"
+            data-position="top" data-tooltip="View Lukhanyo on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Lukhanyo on Github" href="https://github.com/lukskalashs" class="hoverline"
+              target="_blank">github.com/lukskalashs</a></a>
+        </p>
+        <p>
+          <a aria-label="View Lukhanyo on LinkedIn" href="https://www.linkedin.com/in/lukhanyo-kalashe-55320b22a/" target="_blank"
+            data-position="top" data-tooltip="View Lukhanyo on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Lukhanyo on LinkedIn" href="https://www.linkedin.com/in/lukhanyo-kalashe-55320b22a/"
+              class="hoverline" target="_blank">linkedin.com/in/lukhanyo-kalashe-55320b22a/</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Software Engineer", "Data Analyst", "Data Engineer", "AI Engineer"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      $(".button-collapse").sideNav({
+        menuWidth: 190,
+        edge: "left",
+        closeOnClick: true
+      })
+    })
+  </script>
+</body>
+
+</html>
