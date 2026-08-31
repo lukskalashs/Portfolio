@@ -514,18 +514,6 @@ a.hoverline:hover {
   height: auto;
 }
 
-#projects .project-card-long {
-  height: 510px !important;
-}
-
-#projects .project-card-long .card-content {
-  min-height: 160px;
-}
-
-#projects .project-card-long .card-content p {
-  overflow: visible;
-}
-
 .card.medium .card-image {
   height: 240px;
 }
